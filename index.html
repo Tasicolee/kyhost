@@ -3,17 +3,21 @@
 <head>
     <title>昆药下载页面</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         body {
-            font-family: 'Shadows Into Light', cursive;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-image: url('https://pic.616pic.com/bg_w1180/00/01/87/jD23IPC7Wk.jpg');
             background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         .container {
+            text-align: center;
             width: 80%;
-            margin: auto;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
@@ -21,17 +25,21 @@
         h1 {
             color: #333;
         }
+        p {
+            color: #666;
+        }
         a {
-            display: block;
+            display: inline-block;
             margin: 10px 0;
             padding: 10px;
             background-color: #008CBA;
             color: white;
             text-decoration: none;
-            text-align: center;
+            transition: transform 0.3s ease-in-out;
         }
         a:hover {
             background-color: #007B9A;
+            transform: scale(1.05);
         }
     </style>
 </head>
