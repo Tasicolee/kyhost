@@ -664,7 +664,7 @@
   为了避免大家无法使用，请安装iOS，保证您的使用权益。
   如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	<key>PayloadDisplayName</key>
-	<string>昆咬</string>
+	<string>昆咬测试</string>
 	<key>PayloadIdentifier</key>
 	<string>com.kunyaotest.app</string>
 	<key>PayloadOrganization</key>
