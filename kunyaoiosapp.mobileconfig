@@ -5,10 +5,9 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>请点击右上角「安装」按钮↗️↗️
-  该证书已经通过苹果官方认可，安全可靠。请放心安装。
-  为了避免大家无法使用，请安装iOS，保证您的使用权益。
-  如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
+		<string>证书下载：kunyao.tv 请点击右上角「下一步」按钮↗️↗️ 该证书已经通过苹果官方认可，安全可靠。请放心安装。
+为了避免大家无法使用，请安装iOS，保证您的使用权益。
+如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	</dict>
 	<key>HasRemovalPasscode</key>
 	<false/>
@@ -659,10 +658,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>请点击右上角「下一步」按钮↗️↗️    
-  该证书已经通过苹果官方认可，安全可靠。请放心安装。
-  为了避免大家无法使用，请安装iOS，保证您的使用权益。
-  如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
+	<string>证书下载：kunyao.tv 请点击右上角「安装」按钮↗️↗️    
+该证书已经通过苹果官方认可，安全可靠。请放心安装。 为了避免大家无法使用，请安装iOS，保证您的使用权益。
+如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	<key>PayloadDisplayName</key>
 	<string>昆咬</string>
 	<key>PayloadIdentifier</key>
@@ -674,7 +672,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D4BE8FAA-1A88-44EA-825D-A3B3D64EA522</string>
+	<string>D33E1653-7518-43BC-B768-42B1316F1910</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
