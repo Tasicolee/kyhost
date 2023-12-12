@@ -638,17 +638,17 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>昆咬</string>
+			<string>昆咬测试</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.CD75E3CE-B3A8-4DEF-A93B-1695B4C9491A</string>
+			<string>com.apple.webClip.managed.51C5750E-D22C-4236-AF71-B7AB27120947</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>CD75E3CE-B3A8-4DEF-A93B-1695B4C9491A</string>
+			<string>51C5750E-D22C-4236-AF71-B7AB27120947</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
@@ -672,7 +672,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A9F8BE65-325B-4091-A93F-CC2EDBF4F201</string>
+	<string>2F56ED33-8D8E-412D-8034-B97562D6950E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
