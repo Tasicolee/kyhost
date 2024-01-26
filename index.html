@@ -12,12 +12,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            padding-bottom: 200px;
         }
         .container {
             text-align: center;
             width: 60%; /* Increased container width */
             background-color: rgba(255, 255, 255, 0.4);
-            padding: 10px; /* Increased padding */
+            padding: 30px; /* Increased padding */
             box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); /* Increased box shadow for more depth */
         }
         h1 {
@@ -37,20 +38,26 @@
         }
         a {
             display: block;
-            margin: 20px auto; /* Increased margin */
             padding: 15px; /* Increased padding */
             background-color: #008CBA;
             color: white;
             text-decoration: none;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box shadow transition */
             box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Added box shadow for more depth */
-            width: 50%;
             font-size: 1.2em; /* Increased font size */
+            width: 100%;
+            box-sizing: border-box;
         }
         a:hover {
             background-color: #007B9A;
             transform: scale(1.05);
             box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2); /* Increased box shadow on hover for more depth */
+        }
+        .wrap{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            gap: 20px;
         }
 
     </style>
@@ -62,113 +69,139 @@
     <h1>这不是用户的下载页面</h1>
     <img src="https://raw.githubusercontent.com/Tasicolee/kyhost/main/img/exported_qrcode_image_600.png"/>
     <p>电驴下载</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/dl/dlProduce.apk" download>
-        DL安卓生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/dl/dlTest.apk" download>
-        DL安卓测试下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/dl/dliosapp.mobileconfig"
-       download>
-        DL苹果生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/dl/dliosapptest.mobileconfig"
-       download>
-        DL苹果测试下载
-        ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/dl/dlProduce.apk" download>
+            DL安卓生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/dl/dlTest.apk" download>
+            DL安卓测试下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/dl/dliosapp.mobileconfig"
+           download>
+            DL苹果生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/dl/dliosapptest.mobileconfig"
+           download>
+            DL苹果测试下载
+            ✍</a>
+    </div>
+
     <p>高德下载</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/gd/gdProduce.apk" download>
-        GD安卓生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/gd/gdTest.apk" download>
-        GD安卓测试下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/gd/gdiosapp.mobileconfig"
-       download>
-        GD苹果生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/gd/gdiosapptest.mobileconfig"
-       download>
-        GD苹果测试下载
-        ✍</a>
-    <a href="https://gzbgs0zy1hoas.auata.com/" download>
-        GD网页生产下载
-        ✍</a>
-    <a href="https://gd.wuhaicj.com/home" download>
-        GD网页测试下载
-        ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/gd/gdProduce.apk" download>
+            GD安卓生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/gd/gdTest.apk" download>
+            GD安卓测试下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/gd/gdiosapp.mobileconfig"
+           download>
+            GD苹果生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/gd/gdiosapptest.mobileconfig"
+           download>
+            GD苹果测试下载
+            ✍</a>
+        <a href="https://gzbgs0zy1hoas.auata.com/" download>
+            GD网页生产下载
+            ✍</a>
+        <a href="https://gd.wuhaicj.com/home" download>
+            GD网页测试下载
+            ✍</a>
+    </div>
+
     <p>迅雷下载</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/xl/xlProduce.apk" download>
-        DL安卓生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/xl/xlTest.apk" download>
-        DL安卓测试下载
-        ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/xl/xlProduce.apk" download>
+            DL安卓生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/xl/xlTest.apk" download>
+            DL安卓测试下载
+            ✍</a>
+    </div>
+
     <p>KY安卓</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/kunyao.apk" download>
-        KY安卓生产下载
-        ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/kyTest.apk" download>
-        KY安卓测试下载
-        ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/kunyao.apk" download>
+            KY安卓生产下载
+            ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/kyTest.apk" download>
+            KY安卓测试下载
+            ✍</a>
+    </div>
+
     <p>KY苹果</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/ky/kunyaoiosapp.mobileconfig"
-       download> KY苹果生产下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/ky/kunyaoiosapptest.mobileconfig"
-       download> KY苹果测试下载 ✍</a>
-    <a href="http://h5.wuhaicj.com/" download> KY网页测试 ✍</a>
-    <a href="https://knuril67name.xyz/" download> KY网页生产 ✍</a>
-    <a href="https://kunyao.tv/?code=xbojag" download> KY用户下载地址 ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/ky/kunyaoiosapp.mobileconfig"
+           download> KY苹果生产下载 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/ios/ky/kunyaoiosapptest.mobileconfig"
+           download> KY苹果测试下载 ✍</a>
+        <a href="http://h5.wuhaicj.com/" download> KY网页测试 ✍</a>
+        <a href="https://knuril67name.xyz/" download> KY网页生产 ✍</a>
+        <a href="https://kunyao.tv/?code=xbojag" download> KY用户下载地址 ✍</a>
+    </div>
 
     <p>测试渠道下载</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_nel5aK.apk"
-       download> 高德安卓(nel5aK)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_penRe7.apk"
-       download> 高德安卓(penRe7)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_vbmOeY.apk"
-       download> 高德安卓(vbmOeY)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_xbojag.apk"
-       download> 高德安卓(xbojag)渠道测试下载 ✍</a>
 
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_nel5aK.apk"
-       download> 昆咬安卓(nel5aK)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_penRe7.apk"
-       download> 昆咬安卓(penRe7)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_vbmOeY.apk"
-       download> 昆咬安卓(vbmOeY)渠道测试下载 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_xbojag.apk"
-       download> 昆咬安卓(xbojag)渠道测试下载 ✍</a>
+        <div class="wrap">
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_nel5aK.apk"
+               download> 高德安卓(nel5aK)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_penRe7.apk"
+               download> 高德安卓(penRe7)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_vbmOeY.apk"
+               download> 高德安卓(vbmOeY)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/gdTest_aligned_signed_xbojag.apk"
+               download> 高德安卓(xbojag)渠道测试下载 ✍</a>
+
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_nel5aK.apk"
+               download> 昆咬安卓(nel5aK)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_penRe7.apk"
+               download> 昆咬安卓(penRe7)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_vbmOeY.apk"
+               download> 昆咬安卓(vbmOeY)渠道测试下载 ✍</a>
+            <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/test/kyTest_aligned_signed_xbojag.apk"
+               download> 昆咬安卓(xbojag)渠道测试下载 ✍</a>
+        </div>
+
     <p>KY历史版本记录</p>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao110.apk"
-       download>
-        KY安卓生产110 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest110.apk"
-       download>
-        KY安卓测试110 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao107.apk"
-       download>
-        KY安卓生产107 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest107.apk"
-       download>
-        KY安卓测试107 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao106.apk"
-       download>
-        KY安卓生产106 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest106.apk"
-       download>
-        KY安卓测试106 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao105.apk"
-       download>
-        KY安卓生产105 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest105.apk"
-       download>
-        KY安卓测试105 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao104.apk"
-       download>
-        KY安卓生产104 ✍</a>
-    <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest104.apk"
-       download>
-        KY安卓测试104 ✍</a>
+
+    <div class="wrap">
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao110.apk"
+           download>
+            KY安卓生产110 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest110.apk"
+           download>
+            KY安卓测试110 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao107.apk"
+           download>
+            KY安卓生产107 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest107.apk"
+           download>
+            KY安卓测试107 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao106.apk"
+           download>
+            KY安卓生产106 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest106.apk"
+           download>
+            KY安卓测试106 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao105.apk"
+           download>
+            KY安卓生产105 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest105.apk"
+           download>
+            KY安卓测试105 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kunyao104.apk"
+           download>
+            KY安卓生产104 ✍</a>
+        <a href="https://raw.githubusercontent.com/Tasicolee/kyhost/main/apk/ky/old/kyTest104.apk"
+           download>
+            KY安卓测试104 ✍</a>
+    </div>
 </div>
 </body>
 </html>
