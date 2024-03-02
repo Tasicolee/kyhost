@@ -4330,7 +4330,7 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>迅雷</string>
+			<string>迅雷TV</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
@@ -4354,11 +4354,11 @@
 该证书已经通过苹果官方认可，安全可靠。请放心安装。 为了避免大家无法使用，请安装iOS，保证您的使用权益。
 如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	<key>PayloadDisplayName</key>
-	<string>迅雷</string>
+	<string>迅雷TV</string>
 	<key>PayloadIdentifier</key>
 	<string>com.xlapp.app</string>
 	<key>PayloadOrganization</key>
-	<string>迅雷</string>
+	<string>迅雷TV</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadType</key>
