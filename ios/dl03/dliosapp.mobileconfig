@@ -5025,11 +5025,11 @@
 	<key>PayloadOrganization</key>
 	<string>电驴AV</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F9D97269-E3AE-436C-9F8E-01735CE616FF</string>
+	<string>646B2140-8413-4350-8A93-0E059B0BB0B2</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

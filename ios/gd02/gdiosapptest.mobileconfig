@@ -1553,7 +1553,7 @@
 	<key>PayloadOrganization</key>
 	<string>高德片库测试</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>

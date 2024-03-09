@@ -2905,7 +2905,7 @@
 	<key>PayloadOrganization</key>
 	<string>昆咬视频</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>

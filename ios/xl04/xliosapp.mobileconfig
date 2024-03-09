@@ -4360,7 +4360,7 @@
 	<key>PayloadOrganization</key>
 	<string>迅雷TV</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
