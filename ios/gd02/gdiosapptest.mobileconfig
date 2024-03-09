@@ -1521,7 +1521,7 @@
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>高德片库测试</string>
 			<key>PayloadDescription</key>

@@ -1521,7 +1521,7 @@
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>高德片库</string>
 			<key>PayloadDescription</key>
@@ -1529,11 +1529,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.2F6066F9-65AE-4376-84BC-DF6285193C38</string>
+			<string>com.apple.webClip.managed.07020831-020C-402A-8B35-3EC467B8B7B5</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>2F6066F9-65AE-4376-84BC-DF6285193C38</string>
+			<string>07020831-020C-402A-8B35-3EC467B8B7B5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
@@ -1557,7 +1557,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>ED5C8178-A92C-4D48-9646-97F4DE5EDE1C</string>
+	<string>9B2471CA-7173-43E4-A956-6B3F93117733</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

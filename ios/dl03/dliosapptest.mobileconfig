@@ -4993,7 +4993,7 @@
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>电驴AV测试</string>
 			<key>PayloadDescription</key>

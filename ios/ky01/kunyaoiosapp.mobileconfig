@@ -2873,7 +2873,7 @@
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>昆咬视频</string>
 			<key>PayloadDescription</key>
@@ -2891,7 +2891,7 @@
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://01h50s8lij.rrrqqr.com:20443?code=office</string>
+			<string>01h576yix4.rrrqqr.com?code=office</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>

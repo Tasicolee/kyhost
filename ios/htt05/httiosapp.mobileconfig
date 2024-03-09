@@ -516,7 +516,7 @@
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>黄头条</string>
 			<key>PayloadDescription</key>
@@ -534,7 +534,7 @@
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://h5htt.wuhaicj.com/home?code=office</string>
+			<string>https://05h5lf1jt.rrrqqr.com?code=office</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
