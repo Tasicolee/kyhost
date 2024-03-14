@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Icon Links</title>
+    <style>
+        .icon-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div class="icon-container">
+    <span class="icon" onclick="navigateToPage('page1.html')">🌟</span>
+    <span class="icon" onclick="navigateToPage('page2.html')">🌈</span>
+    <span class="icon" onclick="navigateToPage('page3.html')">🎉</span>
+    <span class="icon" onclick="navigateToPage('page4.html')">🔗</span>
+    <span class="icon" onclick="navigateToPage('page5.html')">📚</span>
+</div>
+
+<script>
+        function navigateToPage(url) {
+            window.location.href = url;
+        }
+
+</script>
+</body>
+</html>
