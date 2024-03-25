@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>全部下载页面</title>
     <link rel="shortcut icon" href="favicon.webp">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -15,60 +17,80 @@
             align-items: center;
             padding-bottom: 100px;
         }
+
         .container {
             text-align: center;
-            width: 90%; /* Increased container width */
+            width: 90%;
+            /* Increased container width */
             background-color: rgba(255, 255, 255, 0.1);
-            padding: 30px; /* Increased padding */
-            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); /* Increased box shadow for more depth */
+            padding: 30px;
+            /* Increased padding */
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+            /* Increased box shadow for more depth */
         }
+
         h1 {
             color: #333;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Added text shadow for more depth */
-            font-size: 2em; /* Increased font size */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            /* Added text shadow for more depth */
+            font-size: 2em;
+            /* Increased font size */
         }
+
         p {
             color: #666;
-            font-size: 1.5em; /* Increased font size */
+            font-size: 1.5em;
+            /* Increased font size */
         }
+
         img {
             display: block;
             margin: 0 auto;
-            width: 50%; /* Reduced image size */
+            width: 50%;
+            /* Reduced image size */
             height: auto;
         }
+
         a {
             display: block;
-            padding: 15px; /* Increased padding */
+            padding: 15px;
+            /* Increased padding */
             background-color: #008CBA;
             color: white;
             text-decoration: none;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box shadow transition */
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Added box shadow for more depth */
-            font-size: 1.2em; /* Increased font size */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            /* Added box shadow transition */
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            /* Added box shadow for more depth */
+            font-size: 1.2em;
+            /* Increased font size */
             width: 100%;
             box-sizing: border-box;
         }
+
         a:hover {
             background-color: #007B9A;
             transform: scale(1.05);
-            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2); /* Increased box shadow on hover for more depth */
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+            /* Increased box shadow on hover for more depth */
         }
-        .wrap{
+
+        .wrap {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             justify-items: center;
             gap: 20px;
         }
-        h1,p {
+
+        h1,
+        p {
             font-size: 40px;
             color: #000;
             font-weight: 800px;
         }
-
-
     </style>
 </head>
+
 <body>
 <div class="container">
     <h1>下载页面</h1>
@@ -81,28 +103,22 @@
     </script>
     <p>用户下载地址-官方地址</p>
     <div class="wrap">
-        <a href="https://kunyao.tv"
-           download>
+        <a download href="https://kunyao.tv">
             01昆咬落地页
             ✍</a>
-        <a href="https://gaode.live"
-           download>
+        <a download href="https://gaode.live">
             02高德落地页
             ✍</a>
-        <a download
-           href="https://huangpianku.com/">
+        <a download href="https://huangpianku.com/">
             02黄片库落地页
             ✍</a>
-        <a href="https://dianlv.co"
-           download>
+        <a download href="https://dianlv.co">
             03电驴落地页
             ✍</a>
-        <a href="https://xunlei.pro"
-           download>
+        <a download href="https://xunlei.pro">
             04迅雷落地页
             ✍</a>
-        <a href="https://htts.pro"
-           download>
+        <a download href="https://htts.pro">
             05黄头条落地页
             ✍</a>
         <a download
@@ -320,6 +336,144 @@
 
     </div>
 </div>
-</body>
-</html>
+<script src="./jquery-3.3.1.min.js"></script>
+<script>
+    //鼠标移动特效
+    (function () {
+        var colors = ["#D61C59", "#E7D84B", "#1B8798", "#FF0000", "#00FF00"];
+        characters = ["😍", "💗", "⚽️", "🏀", "🎱",
+            "😊", "😉", "😜", "🤪", "🥳",
+            "😎", "🤩", "🥰", "😘", "😗",
+            "💖", "❤️", "😻", "💝", "🎉",
+            "🎊", "🔥", "💯", "👍", "👏"]
 
+        elementGroup = [];
+        //定义元素类
+        class Element {
+            //构造函数
+            constructor() {
+                num = Math.floor(Math.random() * characters.length);
+                this.character = characters[num];
+                this.lifeSpan = 120;
+                this.initialStyles = {
+                    position: "fixed",
+                    top: "0",
+                    display: "block",
+                    pointerEvents: "none",
+                    "z-index": "10000000",
+                    fontSize: "25px",
+                    "will-change": "transform",
+                    color: "#000000"
+                };
+                //初始化
+                this.init = function (x, y, color) {
+                    this.velocity = { x: (Math.random() < .5 ? -1 : 1) * (Math.random() / 2), y: 1 };
+                    this.position = { x: x - 10, y: y - 20 };
+                    this.initialStyles.color = color;
+                    this.element = document.createElement("span");
+                    this.element.innerHTML = this.character;
+                    ApplyStyle(this.element, this.initialStyles);
+                    this.update();
+                    document.body.appendChild(this.element);
+                };
+                //更新
+                this.update = function () {
+                    //移动，缩放
+                    this.position.x += this.velocity.x;
+                    this.position.y += this.velocity.y;
+                    this.lifeSpan--;
+                    this.element.style.transform = "translate3d(" + (this.position.x - window.innerWidth / 2 + 10) + "px," + this.position.y + "px,0) scale(" + this.lifeSpan / 120 + ")";
+                };
+                //销毁
+                this.die = function () {
+                    this.element.parentNode.removeChild(this.element);
+                };
+            }
+        }
+
+        AddListener();
+        //循环
+        setInterval(
+            function () {
+                Rander();
+            },
+            1000 / 60);
+        //添加事件监听器
+        function AddListener() {
+            //当前事件对象会作为第一个参数传入函数
+            document.addEventListener("mousemove", onMouseMove);
+            document.addEventListener("touchmove", Touch);
+            document.addEventListener("touchstart", Touch);
+        }
+        //逐个渲染
+        function Rander() {
+            for (var i = 0; i < elementGroup.length; i++) {
+                elementGroup[i].update();
+                if (elementGroup[i].lifeSpan < 0) {
+                    elementGroup[i].die();
+                    elementGroup.splice(i, 1);
+                }
+            }
+        }
+        //鼠标移动事件函数
+        function onMouseMove(t) {
+            num = Math.floor(Math.random() * colors.length);
+            CreateElement(t.clientX, t.clientY, colors[num]);
+        }
+        //添加元素
+        function CreateElement(x, y, color) {
+            var e = new Element;
+            e.init(x, y, color);
+            elementGroup.push(e);
+        }
+        //调整元素属性
+        function ApplyStyle(element, style) {
+            for (var i in style) {
+                element.style[i] = style[i];
+            }
+        }
+        //触摸事件函数
+        function Touch(t) {
+            if (t.touches.length > 0) {
+                for (var i = 0; i < t.touches.length; i++) {
+                    num = Math.floor(Math.random() * r.length);
+                    s(t.touches[i].clientX, t.touches[i].clientY, r[num]);
+                }
+            }
+        }
+
+        /**  雪花 */
+        var minSize = 15; //最小字体
+        var maxSize = 30;//最大字体
+        var newOne = 600; //生成雪花间隔
+        var flakColor = "white"; //雪花颜色
+        var flak = $("<div></div>").css({ position: "absolute", "top": "-100px" }).html("❉");//定义一个雪花
+        var dhight = $(window).height(); //定义视图高度
+        var dw = $(window).width() - 80; //定义视图宽度
+        setInterval(function () {
+            var sizeflak = minSize + Math.random() * maxSize; //产生大小不等的雪花
+            var startLeft = Math.random() * dw; //雪花生成是随机的left值
+            var startOpacity = 0.7 + Math.random() * 0.3; //随机透明度
+            var endTop = dhight - 100; //雪花停止top的位置
+            var endLeft = Math.random() * dw; //雪花停止的left位置
+            var durationfull = 12000 + Math.random() * 3000; //雪花飘落速度不同
+            flak.clone().appendTo($("body")).css({
+                "left": startLeft,
+                "opacity": startOpacity,
+                "font-size": sizeflak,
+                "color": flakColor
+            }).animate({
+                "top": endTop,
+                "left": endLeft,
+                "apacity": 0.1
+            }, durationfull, function () {
+                $(this).remove()
+            });
+        }, newOne);
+    })();
+
+
+</script>
+</body>
+
+</html>
