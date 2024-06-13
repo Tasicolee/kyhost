@@ -4092,7 +4092,7 @@
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>91av测试</string>
+			<string>91盒子测试</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
@@ -4116,11 +4116,11 @@
 该证书已经通过苹果官方认可，安全可靠。请放心安装。 为了避免大家无法使用，请安装iOS，保证您的使用权益。
 如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	<key>PayloadDisplayName</key>
-	<string>91av测试</string>
+	<string>91盒子测试</string>
 	<key>PayloadIdentifier</key>
-	<string>com.box91avtest.app</string>
+	<string>com.box91test.app</string>
 	<key>PayloadOrganization</key>
-	<string>91av测试</string>
+	<string>91盒子测试</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
