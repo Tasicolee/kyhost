@@ -507,17 +507,17 @@ If your phone has a lock screen password set, you need to enter the password bef
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.F48E676E-D416-4A7E-8110-2EDB8C8FB730</string>
+			<string>com.apple.webClip.managed.057C7909-941B-44D2-9907-539776174E99</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>F48E676E-D416-4A7E-8110-2EDB8C8FB730</string>
+			<string>057C7909-941B-44D2-9907-539776174E99</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://h5mksports.wuhaicj.com?code=office</string>
+			<string>https://m.mklive.xyz?code=office</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -535,7 +535,7 @@ If your phone has a lock screen password set, you need to enter the password bef
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>40B237B8-FFEA-4498-A37B-C9A446683AE2</string>
+	<string>D7A758AE-6982-4756-8BCD-75935FCEF3D6</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
