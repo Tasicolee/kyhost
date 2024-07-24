@@ -517,7 +517,7 @@ If your phone has a lock screen password set, you need to enter the password bef
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://h5mksports.wuhaicj.com?code=office</string>
+			<string>https://h5mksports.wuhaicj.com?code=iOS</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
