@@ -5396,17 +5396,17 @@
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>91盒子</string>
+			<string>收费盒子</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.E7373E29-4094-4C91-8878-BFE1F6B0C261</string>
+			<string>com.apple.webClip.managed.29AF5585-9E7E-48F9-BEC0-F64D1544DF19</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>E7373E29-4094-4C91-8878-BFE1F6B0C261</string>
+			<string>29AF5585-9E7E-48F9-BEC0-F64D1544DF19</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
@@ -5420,17 +5420,17 @@
 该证书已经通过苹果官方认可，安全可靠。请放心安装。 为了避免大家无法使用，请安装iOS，保证您的使用权益。
 如果手机设置了锁屏密码，需要输入密码后才能继续安装。</string>
 	<key>PayloadDisplayName</key>
-	<string>91盒子</string>
+	<string>收费盒子</string>
 	<key>PayloadIdentifier</key>
-	<string>com.box91.app</string>
+	<string>com.boxfree.app</string>
 	<key>PayloadOrganization</key>
-	<string>91盒子</string>
+	<string>收费盒子</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D6A236A9-C19B-4E4B-AF4D-377F468C81A4</string>
+	<string>F95AF83E-2645-475B-AA81-24377CBAFADA</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
